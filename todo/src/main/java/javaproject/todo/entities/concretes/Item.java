@@ -34,7 +34,7 @@ public class Item {
 
 	@JoinColumn(name = "user_id")
 	@ManyToOne()
-	private int userId;
+	private User user;
 
 	@Column(name = "name")
 	private String name;
