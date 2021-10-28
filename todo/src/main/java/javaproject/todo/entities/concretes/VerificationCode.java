@@ -41,10 +41,10 @@ public class VerificationCode {
 	@Column(name = "is_active")
 	private boolean isActive = true;
 
-	@Column(name = "code")
-	private String code;
-
 	@Column(name = "is_confirmed")
 	private boolean isConfirmed;
+
+	@Column(name = "code")
+	private String code;
 
 }
